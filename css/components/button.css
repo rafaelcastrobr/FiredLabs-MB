@@ -11,10 +11,6 @@
 
 .button:hover {
     background-color: #23e705;
-}
-
-.button:active {
-    background-color: #23e705;
     box-shadow: -5px -5px 0px black;
 }
 

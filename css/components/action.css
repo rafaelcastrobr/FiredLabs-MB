@@ -16,6 +16,6 @@
 }
 
 
-.action:active::before {
+.action:hover::before {
     background: #23e705;
 }
