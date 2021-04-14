@@ -1,7 +1,7 @@
 .banner {
     box-sizing: border-box;
-    background-image: url(../../assets/img/photo.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../../assets/img/photoactual.jpg);
+    background-repeat: round;
     height: 800px;
     border-bottom: 7px solid black;
     padding-left: 90px;
