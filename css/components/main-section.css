@@ -15,3 +15,9 @@
     border-color: #F25A70;
     height: 520px;
 }
+
+.main-section.-darker {
+    background-color: #1E1903;
+    border-color: #000;
+    height: 793px;
+}
