@@ -24,8 +24,10 @@
         <link rel="stylesheet" href="css/components/wrapper-card.css">
         <link rel="stylesheet" href="css/components/wrapper-text.css">
         <link rel="stylesheet" href="css/components/main-description.css">
+        <link rel="stylesheet" href="css/components/main-carousel.css">
         <link rel="stylesheet" href="css/components/button-arrow.css">
-
+        <link rel="stylesheet" href="css/components/node-card.css">
+        
         
 
 
@@ -68,8 +70,8 @@
                             <img class="icon" src="img/ico_html.png" alt="Logo HTML 5">
                         <div class="right">
                             <h3 class="title">HTML</h3>
-                            <progress class="progress-bar" max="100" value="70">
-                                70%
+                            <progress class="progress-bar" max="100" value="20">
+                                20%
                             </progress>
                         </div>
                     </article>
@@ -77,8 +79,8 @@
                         <img class="icon" src="img/ico_nodejs.png" alt="Logo do NodeJS">
                     <div class="right">
                         <h3 class="title">NodeJS</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                     </article>
@@ -86,8 +88,8 @@
                         <img class="icon" src="img/ico_css3.png" alt="Logo do CSS3">
                     <div class="right">
                         <h3 class="title">CSS3</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="10">
+                            10%
                         </progress>
                     </div>
                     </article>
@@ -95,8 +97,8 @@
                         <img class="icon" src="img/ico_tdd.png" alt="Logo do TDD">
                     <div class="right">
                         <h3 class="title">TDD</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                     </article>
@@ -104,8 +106,8 @@
                         <img class="icon" src="img/ico_js.png" alt="Logo do JavaScrip">
                     <div class="right">
                         <h3 class="title">JavaScript</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
                         </progress>
                     </div>
                     </article>
@@ -113,8 +115,8 @@
                         <img class="icon" src="img/ico_restapi.png" alt="Logo do RestAPI">
                     <div class="right">
                         <h3 class="title">Rest API</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="5">
+                            5%
                         </progress>
                     </div>
                     </article>
@@ -122,8 +124,8 @@
                         <img class="icon" src="img/ico_react.png" alt="Logo do React">
                     <div class="right">
                         <h3 class="title">React</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="0">
+                            0%
                         </progress>
                     </div>
                     </article>
@@ -131,8 +133,8 @@
                         <img class="icon" src="img/ico_ux.png" alt="Logo do UX">
                     <div class="right">
                         <h3 class="title">UX</h3>
-                        <progress class="progress-bar" max="100" value="70">
-                            70%
+                        <progress class="progress-bar" max="100" value="10">
+                            10%
                         </progress>
                     </div>
                     </article>
@@ -147,15 +149,15 @@
                         </figure>
                     </a>
 
-                    <a href="">
+                    <a href="https://github.com/rafaelcastrobr" target="_blank">
                         <figure class="card-project -blue">
-                            <img class="logo" src="img/collabcode.png" alt="Logo da firedlabs">
+                            <img class="logo" width="254px" src="img/git.png" alt="Logo Github">
                         </figure>
                     </a>
 
                     <a href="" target="_blank">
                         <figure class="card-project">
-                            <img class="logo" width="280px" src="assets/img/81026101.png" alt="Logo da firedlabs">
+                            <img class="logo" width="280px" src="assets/img/81026101.png" alt="Logo do Projeto">
                         </figure>
                     </a>
                 </div>
@@ -170,9 +172,35 @@
                         E quando não está aprendendo, está vendo consumindo o melhor do cinema de Agnès Varda à Béla Tarr.
                     </p>
                 </div>
-                <button class="button-arrow -left"><span class="content">Esquerda</span></button>
-                <button class="button-arrow -right"><span class="content">Direita</span></button>
-                
+                <section class="main-carousel">
+                    <button class="button-arrow -left"><span class="content">Esquerda</span></button>
+                    
+                    <div class="itens">
+                        <div class="elements">
+                            <figure class="node-card -clean">
+                                <figcaption class="title">2011</figcaption>
+                                <div class="logo">
+                                    <img width="140px" src="img/unnamed.jpg" alt="Logo da Locaweb">
+                                </div>
+                            </figure>
+
+                            <figure class="node-card -pink">
+                                <figcaption class="title">2019</figcaption>
+                                <div class="logo">
+                                    <img width="140px" src="img/py.png" alt="Logo da Py">
+                                </div>
+                            </figure>
+
+                            <figure class="node-card -pink">
+                                <figcaption class="title">2021</figcaption>
+                                <div class="logo">
+                                    <img width="140px" src="img/h5c3.png" alt="Logo da Html5+Css3">
+                                </div>
+                            </figure>
+                     </div>
+                </div>
+                    <button class="button-arrow -right"><span class="content">Direita</span></button>
+                </section>
             </section>
     </body>
 </html>
