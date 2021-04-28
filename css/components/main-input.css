@@ -7,3 +7,7 @@
     padding-right: 5px;
 
 }
+
+.main-input.-textarea {
+    height: 220px;
+}
