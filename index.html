@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
     <link rel="stylesheet" href="css/components/wrapper-links.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
 
@@ -212,23 +213,28 @@
         <h2 class="main-title -second">Contatos</h2>
         <form class="main-form" method="POST">
             <div>
-                <label for="name">Nome:</label>
-                <input type="text">
+                <label class="main-label" for="name">Nome:</label>
+                <input id="name" type="text">
             </div>
             <div>
-                <label for="email">E-mail:</label>
-                <input type="email">
+                <label class="main-label" for="email">E-mail:</label>
+                <input id="email" type="email">
             </div>
             <div>
-                <label for="msg">Mensagem:</label>
+                <label class="main-label" for="msg">Mensagem:</label>
                 <textarea id="msg"></textarea>
             </div>
+            <input type="submit" value="Enviar">
         </form>
     </section>
     <footer class="main-footer">
         <div class="wrapper-links">
-            <a target="_blank" href="https://Instagram.com.br/rafaelcastromont"><img class="ico" height="45px" src="img/ico_instagram.jpg" alt="Icone Instagram"></a>
-            <a target="_blank" href="https://github.com/rafaelcastrobr"><img class="ico" height="45px" src="img/ico_github.jpg" alt="Icone Github"></a>
+            <a target="_blank" href="https://Instagram.com.br/rafaelcastromont">
+                <img class="ico" height="45px" src="img/ico_instagram.jpg" alt="Icone Instagram">
+            </a>
+            <a target="_blank" href="https://github.com/rafaelcastrobr">
+                <img class="ico" height="45px" src="img/ico_github.jpg" alt="Icone Github">
+            </a>
         </div>
     </footer>
     <script src="js/components/main-carousel.js"></script>
