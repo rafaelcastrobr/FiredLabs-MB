@@ -1,0 +1,12 @@
+.wrapper-links {
+    display: flex;
+    justify-content: center;
+    padding: 28px 28px;
+}
+
+.wrapper-links .ico{
+    background-color: white;
+    border-radius: 35px;
+    border: dotted;
+    margin-right: 30px;
+}
