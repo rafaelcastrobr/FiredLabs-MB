@@ -49,10 +49,10 @@
 
         <nav>
             <!-- navigation - navegação de site, tag para guardar links de navegação-->
-            <a class="main-action" href="" lang="en">Skills</a> <!-- ancora-->
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
+            <a class="main-action" href="#skills" lang="en">Skills</a> <!-- ancora-->
+            <a class="main-action" href="#projects">Projetos</a>
+            <a class="main-action" href="#about">Sobre</a>
+            <a class="main-action" href="#contact">Contato</a>
             <a class="main-button" href="" lang="en">Download CV</a>
         </nav>
     </header>
@@ -66,12 +66,12 @@
 
             <div class="navigation">
                 <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
+                <a class="main-button" href="#contact">Contato</a>
             </div>
         </div>
     </section>
 
-    <section class="main-section">
+    <section id="skills" class="main-section">
         <h2 class="main-title -second">Skills</h2>
         <div class="wrapper-skill">
             <article class="skill-tec">
@@ -149,7 +149,7 @@
             </article>
         </div>
     </section>
-    <section class="main-section -bg">
+    <section id="projects" class="main-section -bg">
         <h2 class="main-title -second">Projetos</h2>
         <div class="wrapper-card">
             <a href="https://www.firedlabs.com/" target="_blank">
@@ -171,7 +171,7 @@
             </a>
         </div>
     </section>
-    <section class="main-section -darker">
+    <section id="about" class="main-section -darker">
         <h2 class="main-title -second">Sobre</h2>
 
         <section class="main-carousel">
@@ -211,20 +211,20 @@
             </p>
         </div>
     </section>
-    <section class="main-section -form">
-        <h2 class="main-title -second">Contatos</h2>
+    <section id="contact" class="main-section -form">
+        <h2 class="main-title -second">Contato</h2>
         <form class="main-form" method="POST">
             <div>
                 <label class="main-label" for="name">Nome:</label>
-                <input class="main-input" id="name" type="text">
+                <input class="main-input" id="name" type="text" required>
             </div>
             <div>
                 <label class="main-label" for="email">E-mail:</label>
-                <input class="main-input" id="email" type="email">
+                <input class="main-input" id="email" type="email" required>
             </div>
             <div>
                 <label class="main-label" for="msg">Mensagem:</label>
-                <textarea class="main-input -textarea" id="msg"></textarea>
+                <textarea class="main-input -textarea" id="msg" required></textarea>
             </div>
             <button class="main-button -full" type="submit">Enviar</button>
         </form>
