@@ -1,0 +1,16 @@
+.main-home {
+    display: flex;
+    margin-right: 20px;
+    background-color: #ff664b;
+    left: 94%;
+    bottom: 90px;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.main-home .content {
+    margin-left: 11px;
+    margin-top: 30%;
+}
